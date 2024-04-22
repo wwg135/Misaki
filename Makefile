@@ -7,8 +7,7 @@ TARGET = iphone:clang:latest:15.0
 
 include $(THEOS)/makefiles/common.mk
 
-TWEAK_NAME = Patcher
-Patcher_FILES = Tweak.xm
-Patche_CFLAGS = -fobjc-arc -Wdeprecated-declarations -Wno-deprecated-declarations
+TWEAK_NAME = Misaki
+Misaki_FILES = Tweak.xm
 
 include $(THEOS_MAKE_PATH)/tweak.mk
