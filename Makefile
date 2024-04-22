@@ -9,5 +9,6 @@ include $(THEOS)/makefiles/common.mk
 
 TWEAK_NAME = Patcher
 Patcher_FILES = Tweak.xm
+Patche_CFLAGS = -fobjc-arc -Wdeprecated-declarations -Wno-deprecated-declarations
 
 include $(THEOS_MAKE_PATH)/tweak.mk
