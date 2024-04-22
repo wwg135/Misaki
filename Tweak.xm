@@ -22,3 +22,13 @@
          %orig(arg1);
 }
 %end
+
+%hook UIBar
+-(void)setText:(NSString *)arg1 {
+        if([arg1 isEqualToString:@"Respring"]) {
+                arg1 = @"注销";
+        }
+        
+         %orig(arg1);
+}
+%end
