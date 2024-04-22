@@ -1,7 +1,7 @@
-Package: patch
-Name: 汉化补丁
+Package: Misaki
+Name: Misaki简体中文
 Author: M哥
-Description: Patch汉化补丁
+Description: Misaki简体中文补丁
 Depends: mobilesubstrate
 Maintainer: M哥
 Architecture: iphoneos-arm
