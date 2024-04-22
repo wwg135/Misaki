@@ -7,7 +7,7 @@ TARGET = iphone:clang:latest:15.0
 
 include $(THEOS)/makefiles/common.mk
 
-TWEAK_NAME = Misaki
-Misaki_FILES = Tweak.xm
+TWEAK_NAME = Misaki_CN
+$(TWEAK_NAME)_FILES = Tweak.xm
 
 include $(THEOS_MAKE_PATH)/tweak.mk
