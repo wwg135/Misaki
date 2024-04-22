@@ -1,0 +1,9 @@
+Package: patch
+Name: 汉化补丁
+Author: M哥
+Description: Patch汉化补丁
+Depends: mobilesubstrate
+Maintainer: M哥
+Architecture: iphoneos-arm
+Section: Tweaks
+Version: 1.0
