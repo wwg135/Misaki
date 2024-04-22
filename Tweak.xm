@@ -23,7 +23,7 @@
 }
 %end
 
-%hook UINavigationBar
+%hook MisakiRootListController
 -(void)setText:(NSString *)arg1 {
         if([arg1 isEqualToString:@"Respring"]) {
                 arg1 = @"注销";
