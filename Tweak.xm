@@ -1,3 +1,6 @@
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
 %hook UILabel
 
 -(void)setText:(NSString *)arg1
