@@ -5,7 +5,7 @@
 
 -(void)setText:(NSString *)arg1 {
         if([arg1 isEqualToString:@"Respring"]) {
-                arg1 = @" ";
+                arg1 = @"注销";
         }
 
         if([arg1 isEqualToString:@"Are you sure you want to respring?"]) {
@@ -22,16 +22,4 @@
         
          %orig(arg1);
 }
-%end
-
-%hook MisakiRootListController
-
-- (void)setText:(NSString *)arg1 {
-    if ([arg1 isEqualToString:@"Respring"]) {
-        arg1 = NSLocalizedString(@"注销", nil);
-    }
-    
-    %orig(arg1);
-}
-
 %end
